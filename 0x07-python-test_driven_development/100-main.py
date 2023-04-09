@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-weight_average = __import__('100-weight_average').weight_average
+matrix_mul = __import__('100-matrix_mul').matrix_mul
 
-my_list = [(1, 2), (2, 1), (3, 10), (4, 2)]
-# = ((1 * 2) + (2 * 1) + (3 * 10) + (4 * 2)) / (2 + 1 + 10 + 2)
-result = weight_average(my_list)
-print("Average: {:0.2f}".format(result))
+print(matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
+print(matrix_mul([[1, 2]], [[3, 4], [5, 6]]))

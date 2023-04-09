@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-print_sorted_dictionary = __import__('6-print_sorted_dictionary').print_sorted_dictionary
+max_integer = __import__('6-max_integer').max_integer
 
-a_dictionary = { 'language': "C", 'Number': 89, 'track': "Low level", 'ids': [1, 2, 3] }
-print_sorted_dictionary(a_dictionary)
+print(max_integer([1, 2, 3, 4]))
+print(max_integer([1, 3, 4, 2]))

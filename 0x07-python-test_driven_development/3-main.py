@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-common_elements = __import__('3-common_elements').common_elements
+say_my_name = __import__('3-say_my_name').say_my_name
 
-set_1 = { "Python", "C", "Javascript" }
-set_2 = { "Bash", "C", "Ruby", "Perl" }
-c_set = common_elements(set_1, set_2)
-print(sorted(list(c_set)))
+say_my_name("John", "Smith")
+say_my_name("Walter", "White")
+say_my_name("Bob")
+try:
+    say_my_name(12, "White")
+except Exception as e:
+    print(e)

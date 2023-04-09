@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-number_keys = __import__('5-number_keys').number_keys
+text_indentation = __import__('5-text_indentation').text_indentation
 
-a_dictionary = { 'language': "C", 'number': 13, 'track': "Low level" }
-nb_keys = number_keys(a_dictionary)
-print("Number of keys: {:d}".format(nb_keys))
+text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? \
+Non autem hoc: igitur ne illud quidem. Fortasse id optimum, sed ubi illud: \
+Plus semper voluptatis? Teneo, inquit, finem illi videri nihil dolere. \
+Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum \
+rationi oboediens. Si id dicis, vicimus. Inde sermone vario sex illa a Dipylo \
+stadia confecimus. Sin aliud quid voles, postea. Quae animi affectio suum \
+cuique tribuens atque hanc, quam dico. Utinam quidem dicerent alium alio \
+beatiorem! Iam ruinas videres""")

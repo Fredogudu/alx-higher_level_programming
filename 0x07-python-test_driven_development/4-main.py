@@ -1,7 +1,16 @@
 #!/usr/bin/python3
-only_diff_elements = __import__('4-only_diff_elements').only_diff_elements
+print_square = __import__('4-print_square').print_square
 
-set_1 = { "Python", "C", "Javascript" }
-set_2 = { "Bash", "C", "Ruby", "Perl" }
-od_set = only_diff_elements(set_1, set_2)
-print(sorted(list(od_set)))
+print_square(4)
+print("")
+print_square(10)
+print("")
+print_square(0)
+print("")
+print_square(1)
+print("")
+try:
+    print_square(-1)
+except Exception as e:
+    print(e)
+print("")
