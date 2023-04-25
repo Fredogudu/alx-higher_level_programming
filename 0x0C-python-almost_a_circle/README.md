@@ -1,1 +1,1 @@
-this folder contains Python codes of Almost a circle.
+This folder contains files that are almost a circle
